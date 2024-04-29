@@ -1,6 +1,6 @@
 // Login.js
 import React, { useState } from 'react';
-import './css/login.css'; // Import your CSS file for styling
+import '../../css/login.css'
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -18,7 +18,7 @@ function Login() {
 
   return (
     <div className="login-container">
-      <h2>Login</h2>
+      <h2>Candidate Login</h2>
       <form onSubmit={handleSubmit} className="login-form">
         <div className="form-group">
           <label htmlFor="username">Username:</label>
